@@ -1,6 +1,6 @@
 # Voice + Eye Authentication App
 
-एक advanced multi-factor biometric authentication system जो voice command और iris scanning का उपयोग करके phone को unlock करता है।
+A biometric authentication system for mobile applications that introduces multi-factor security using voice recognition and eye scanning. The device unlocks only after successful verification of both biometric methods, enhancing privacy and protection.
 
 ## 🚀 Features
 
