@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">VoiceEye Auth</string>
+    
+    <!-- Main Activity -->
+    <string name="main_title">Voice + Eye Auth</string>
+    <string name="main_subtitle">Advanced Multi-Factor Biometric Security</string>
+    <string name="start_authentication">Start Authentication</string>
+    <string name="setup_voice">Setup Voice</string>
+    <string name="setup_eye">Setup Eye</string>
+    <string name="initializing">Initializing...</</string>
+    <string name="auth_ready">Voice + Eye Authentication Ready</string>
+    
+    <!-- Voice Setup -->
+    <string name="voice_setup_title">Voice Setup</string>
+    <string name="voice_setup_instruction">Tap below to start voice setup\n\nWe\'ll record your voice pattern for secure authentication</string>
+    <string name="voice_listening">कृपया अपनी voice sample दें...\n"Hello, this is my voice"</string>
+    <string name="voice_processing">Processing your voice pattern...</string>
+    <string name="voice_success">Voice setup completed successfully!\n\nYour voice pattern has been securely stored.</string>
+    <string name="voice_error">Voice capture failed. Please try again.</string>
+    
+    <!-- Eye Setup -->
+    <string name="eye_setup_title">Eye Setup</string>
+    <string name="eye_setup_instruction">Tap below to start eye setup\n\nWe\'ll scan your iris pattern for secure authentication</string>
+    <string name="eye_scanning">अपनी eyes को camera के सामने रखें...\nऔर सीधे देखें</string>
+    <string name="eye_capturing">Capturing iris pattern...</string>
+    <string name="eye_processing">Processing your iris pattern...</string>
+    <string name="eye_success">Eye setup completed successfully!\n\nYour iris pattern has been securely stored.</string>
+    <string name="eye_error">Eye scan failed. Please try again.</string>
+    
+    <!-- Authentication Steps -->
+    <string name="step_wake_word">Listening for wake word...</string>
+    <string name="step_wake_word_detected">Wake word detected!</string>
+    <string name="step_voice_auth">Authenticating voice...</string>
+    <string name="step_voice_success">Voice authenticated!</string>
+    <string name="step_eye_scan">Starting eye scan...</string>
+    <string name="step_eye_success">Eye scan successful!</string>
+    <string name="step_iris_auth">Authenticating iris pattern...</string>
+    <string name="step_iris_success">Iris authenticated!</string>
+    <string name="step_complete">Authentication successful!</string>
+    
+    <!-- Error Messages -->
+    <string name="error_wake_word">Wake word not detected</string>
+    <string name="error_voice_auth">Voice authentication failed</string>
+    <string name="error_liveness">Liveness detection failed</string>
+    <string name="error_iris_auth">Iris authentication failed</string>
+    <string name="error_eye_scan">Eye scan failed</string>
+    <string name="error_permissions">सभी permissions ज़रूरी हैं</string>
+    
+    <!-- Permissions -->
+    <string name="permission_rationale">इस app को आपकी voice और eye scan करने के लिए ये permissions चाहिए:\n\n• माइक्रोफोन - Voice command सुनने के लिए\n• कैमरा - Eye scan करने के लिए\n• बायोमेट्रिक - Secure authentication के लिए</string>
+    
+    <!-- Actions -->
+    <string name="retry">Retry</string>
+    <string name="complete">Complete</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    
+    <!-- Wake Word -->
+    <string name="wake_word">open phone</string>
+</resources>
